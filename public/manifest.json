@@ -1,0 +1,11 @@
+{
+  "name": "Typescales",
+  "description": "Generate typescales",
+  "code": "/plugin.js",
+  "permissions": [
+    "content:read",
+    "content:write",
+    "library:read",
+    "library:write"
+  ]
+}

@@ -1,0 +1,89 @@
+.typescale {
+  margin-bottom: 1rem;
+  background-color: rgba(255, 255, 255, 0.086);
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  text-wrap: nowrap;
+}
+
+.results {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.form {
+  flex: 1;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  position: sticky;
+  top: 1rem;
+  max-height: 100vh;
+}
+
+.typescale-container {
+  flex: 11;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+label {
+  font-size: 1.125rem;
+  font-weight: 600;
+  font-family: Inter;
+  margin-bottom: -10px;
+  color: var(--df-primary);
+}
+
+input {
+  font-size: 2.5rem;
+  padding: 0.25rem;
+  font-family: Inter;
+  font-weight: bold;
+  max-width: 5ch;
+  border-radius: 0.5rem;
+  background-color: var(--db-tertiary);
+  text-align: center;
+}
+
+.submit {
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 1.125rem;
+  background-color: var(--da-primary);
+  color: var(--db-secondary);
+}
+
+.info {
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-family: Inter;
+  opacity: 0.7;
+}
+
+.scale-field {
+  position: relative;
+}
+.scale-options {
+  position: absolute;
+  right: -3rem;
+  top: -100%;
+  left: 110%;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  z-index: 99;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: var(--db-tertiary);
+  min-width: calc(240px + 1rem);
+}
+
+.scale-options > button {
+  min-width: 240px;
+  font-size: 01rem;
+  background-color: var(--db-quaternary);
+}
