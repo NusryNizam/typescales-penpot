@@ -21,6 +21,7 @@
   position: sticky;
   top: 1rem;
   max-height: 100vh;
+  z-index: 99;
 }
 
 .typescale-container {
@@ -66,6 +67,7 @@ input {
 .scale-field {
   position: relative;
 }
+
 .scale-options {
   position: absolute;
   right: -3rem;
